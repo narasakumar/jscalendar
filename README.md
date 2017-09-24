@@ -1,7 +1,7 @@
-node-scheduler-demo
+Calendar in Node.js
 ===================
 
-Demo of dhtmlxScheduler with NodeJs + MongoDB as backend
+NodeJs + MongoDB as backend
 
 ### How to start
 
@@ -16,6 +16,6 @@ after that, open in a browser http://localhost:3000/init to generate a test data
 
 ### DB config
 
-App expects to find the mongoDB on localhost, you can change the server address in the app.js # jscalendar
-# jscalendar
-# jscalendar
+Change DB details in app.js
+
+
