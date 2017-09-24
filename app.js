@@ -1,7 +1,9 @@
 var express = require('express');
 var path = require('path');
 
-var db = require('mongoskin').db("localhost/testdb", { w: 0});
+// var db = require('mongoskin').db("localhost/testdb", { w: 0});
+var db = require('mongoskin').db("mongodb://sa:abc123@ds147304.mlab.com:47304/mycalendar_2017", { w: 0});
+
     db.bind('event');
 
 
